@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EBanking.API.Infrastructure\EBanking.API.Infrastructure.csproj" />
+    <ProjectReference Include="..\EBanking.API.Models\EBanking.API.Models.csproj" />
+    <ProjectReference Include="..\EBanking.API.Shared\EBanking.API.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
